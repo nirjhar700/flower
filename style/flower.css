@@ -6,13 +6,13 @@ body {
   margin: 0px;
 }
 
- .header-class{
+.header-class {
   justify-content: space-around;
   display: flex;
   background: rgba(229, 84, 115, 0.10);
   margin-top: 0px;
   align-items: center;
-} 
+}
 
 .heading {
 
@@ -45,6 +45,61 @@ body {
   width: 700px;
   height: 64px;
   flex-shrink: 0;
+}
+/* featured paragraph */
+.featured{
+  margin-top: 160px;
+  margin-bottom: 40px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 3featured-flowers */
+.box-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 240px 100px;
+}
+
+.box01{
+  height: 538px;
+  width: 464px;
+  border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+
+.box2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  height: 538px;
+  width: 464px;
+}
+
+.box3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  height: 538px;
+  width: 464px;
+
+}
+.anchor{
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight:  700px;
+  line-height: 35px;
+  margin: 25px;
+  text-decoration-line: underline;
+}
+.box-img{
+padding: 110px 78px 0px 76px;
+}
+.box-img2{
+padding: 117px 47px 51px 47px;
+}
+.box-img3{
+padding: 67px 75px 0px 75px;
 }
 
 /* section4 */
@@ -108,35 +163,57 @@ body {
   margin-left: 16px;
 
 }
+
 /* instagram-section */
-.instagram-container{
+.instagram-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px 240px 0px;
 }
-.box{
+
+.box {
   height: 396px;
   width: 342px;
   padding: 14px;
 }
+
 /* foooter */
-.shop{
+.shop {
   height: 449px;
   background-color: #111010;
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-around;.
-
+  justify-content: space-around;
 }
-.para-1{
+
+.para-1 {
   color: rgba(255, 255, 255, 0.90);
   text-align: center;
-  font-family: Lato;
-  font-size: 18px;
+  font-family: Lato,sans-serif;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 30px;
-  
+}
+.para-2{
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.flower-shop{
+  color: #E55473;
+font-family: Lato,sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 750;
+line-height: normal;
+}
+.color-change{
+  color: white;
 }
