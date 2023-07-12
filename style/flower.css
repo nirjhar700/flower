@@ -28,7 +28,7 @@ body {
   line-height: normal;
 
   align-items: center;
-
+  margin-bottom: 80px;
   width: 708px;
   flex-direction: column;
   flex-shrink: 0;
